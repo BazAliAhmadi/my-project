@@ -1,0 +1,301 @@
+@media screen and (max-width: 920px) {
+    /* ======================= Header =================== */
+    body .responsive_menu {
+        margin-top: 1rem;
+        display: none;
+    }
+    header .nav_menu {
+        display: none;
+    }
+    header .respon a #bars {
+        display: block;
+    }
+    body header form {
+        display: none;
+    }
+    header img {
+        display: none;
+    }
+    #con_res .car_res h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #con_res .car_res p {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home_content {
+        flex-wrap: wrap;
+        display: block;
+        background-color: white;
+    }
+    .home_content .home_content_card {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5rem;
+    }
+    /* ========================= About ======================== */
+    #about .about_content {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    #about .about_content .about_content_text {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+    }
+    .about_image {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ================================== Mission =========================== */
+    #mission #mar_left,
+    #mission #mar_right {
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        display: block;
+    }
+    #mission #mar_left .image_bg,
+    #mission #mar_right .image_bg {
+        width: 100%;
+        height: 60vh;
+        margin: 2.5rem 0;
+    }
+    #mission #mar_left .image_bg img,
+    #mission #mar_right .image_bg img {
+        width: 100%;
+        height: 100%;
+    }
+    /* ================================== Feature ================================= */
+    #feature .feature_text {
+        display: block;
+    }
+    #feature .feature_content {
+        margin-top: 5rem;
+    }
+    #feature .feature_text .feature_card {
+        margin-top: 3rem;
+        padding: 0px;
+    }
+    #donate .donate_content {
+        display: block;
+    }
+    /* =================================== Contact ======================== */
+    #contact .contact_content {
+        display: block;
+        width: 100%;
+    }
+    #contact .contact_content .contact_map {
+        height: 40vh;
+        margin-top: 2rem;
+    }
+    /* ================================== Footer ========================== */
+    footer .footer_content {
+        display: block;
+        margin-left: 0px;
+    }
+    footer .foot_image {
+        margin-bottom: 2rem;
+    }
+    footer .footer_link .fa_link_one {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* ======================================== 500px ================================== */
+
+@media screen and (max-width: 500px) {
+    /*  ==================================== Home Background ========================= */
+    section .home_content {
+        width: 90%;
+        border: none;
+    }
+    section .home_content_card {
+        padding: 1rem;
+    }
+    section .home_content_card img {
+        width: 35%;
+        height: 8vh;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .container-fluid .carousel button {
+        display: none;
+    }
+    #con_res .car_res h1 {
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    section .home_content_card h2 {
+        margin: 0px;
+    }
+    section .home_content_card span {
+        font-size: 0.8rem;
+    }
+    section .home_content_card a {
+        margin-bottom: 0px;
+    }
+    section .home_content_card a button {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+    /*  ======================================= About =============================== */
+    section #about {
+        margin-bottom: 0px;
+    }
+    section #about .about_content {
+        width: 90%;
+    }
+    .about_content .about_content_text h1 {
+        font-size: 1.5rem;
+    }
+    .about_content .about_content_text .about_text span {
+        margin: 1rem 0px;
+    }
+    #about .about_content .about_content_text .about_text a button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+    /* =============================== Mission ============================= */
+    section #mission {
+        margin-top: 0px;
+    }
+    section #mission .mission_content,
+    #mission #mar_right {
+        width: 90%;
+    }
+    section #mission #mar_left .image_bg,
+    #mission #mar_right .image_bg {
+        width: 100%;
+        height: 30vh;
+    }
+    section #mission .mission_content h1 {
+        font-size: 1.6rem;
+    }
+    section .mission_content span {
+        margin: 0px;
+    }
+    section #mission .mission_images {
+        margin-top: 0px;
+        width: 90%;
+    }
+    .image_bg .mission_show .mission_text {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+    }
+    .mission_show .mission_text .hover_text {
+        text-align: justify;
+    }
+    .mission_show .mission_text span {
+        font-size: 1rem;
+    }
+    .image_bg .mission_show .mission_text .btn_link a {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+    }
+    /* ======================================= Feature Cause ================================ */
+    section #feature {
+        padding: 0px;
+    }
+    section #feature .feature_content {
+        width: 90%;
+        margin-top: 0px;
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+    .feature_content h1 {
+        font-size: 1.3rem;
+    }
+    .feature_content span {
+        margin: 0px;
+    }
+    .feature_content .feature_text .image_feature img {
+        margin-top: -2rem;
+    }
+    .feature_text h3 {
+        font-size: 1.2rem;
+        margin: 1rem 0px;
+    }
+    .feature_card .feature_link a button {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+        margin: 0px;
+    }
+    .image_feature .image_feature_link {
+        top: 15%;
+    }
+    .image_feature .image_feature_link a {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+    .feature_card h2 {
+        font-size: 1.3rem;
+    }
+    #feature #feature_con {
+        margin-top: 4rem;
+        padding: 0px;
+    }
+    /* =================================== Donate People ================================== */
+    section #donate {
+        margin-bottom: 3rem;
+        padding: 1rem;
+    }
+    section #donate .donate_people {
+        width: 100%;
+    }
+    #donate h1 {
+        font-size: 1.5rem;
+        margin: 2rem;
+    }
+    /* ================================ Footer =========================== */
+    footer .fo_link {
+        display: block;
+    }
+    footer .footer_content {
+        width: 100%;
+    }
+    footer .footer_content .foot_image {
+        margin-top: 3rem;
+    }
+    footer .footer_bottom {
+        width: 90%;
+        height: auto;
+        display: block;
+        /* background-color: white; */
+        padding: 1.5rem 0;
+    }
+    footer .footer_bottom .footer_search {
+        width: 100%;
+    }
+    .footer_bottom .footer_bottom_icon {
+        margin-top: -1.5rem;
+    }
+    .footer_bottom .footer_bottom_icon a .fa {
+        font-size: 1rem;
+    }
+    #foot .footer_note {
+        text-align: center;
+        margin-top: -1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ====================================== Contact.html ================================== */
+    #contact .contact_content {
+        display: block;
+        width: 100%;
+    }
+    #contact .contact_content .contact_map {
+        height: 40vh;
+        margin-top: 2rem;
+    }
+}

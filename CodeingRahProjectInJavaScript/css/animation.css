@@ -1,0 +1,170 @@
+/* --------------------------------------------------------animation js----------------------------------------- */
+/*--------------------------------------------------------- abuot text------------------------------------------------ */
+.aboutText {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.about-text-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(200px);
+}
+
+/*--------------------------------------------------------- abuot img------------------------------------------------ */
+.aboutImg {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.about-Img-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+/* ---------------------------------------------------------mission--------------------------------------- */
+.right {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.right-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+.left {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.left-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+.center {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.center-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(200px);
+}
+
+/*---------------------------------------------- feature ------------------------------- */
+/* ----------------------------------------------feature-1 --------------------------------*/
+.featureNewsImgHidden {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.left-news-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+/* ----------------------------------------------feature-1 text --------------------------------*/
+.featureNewsImgHiddenText {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.left-news-hidden-text {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(200px);
+}
+
+/* -----------------------------------------------feature-2------------------------------ */
+.featureImg7Hidden {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.left-img7-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+/*------------------------------------------------feature-2 text -------------------------*/
+.featureImg7HiddenText {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.left-img7-hidden-text {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(200px);
+}
+
+/*----------------------------------------------- feature-3 img----------------------------- */
+.featureImg8Hidden {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.left-img8-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+/*----------------------------------------------- feature-3 text----------------------------- */
+.featureImg8HiddenText {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.left-img8-hidden-text {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(200px);
+}
+
+/* -- ============================= Donate People div ===================================  */
+.donate-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(200px);
+}
+
+.donate-visible {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+/* -- ============================= Donate People text ===================================  */
+.donate-hiddenT {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-200px);
+}
+
+.donate-visibleT {
+    visibility: visible;
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+/* ---------------------------------------------finish animatuion------------------------- */
